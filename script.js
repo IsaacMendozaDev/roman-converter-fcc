@@ -32,7 +32,7 @@ const decipherText = (interval, currentIndex, romanNumber) => {
     } else {
       clearInterval(interval);
     }
-  }, 100);
+  }, 1000);
 };
 
 const displayText = (romanNumber) => {
